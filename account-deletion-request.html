@@ -18,33 +18,48 @@
       text-align: center;
       color: #333;
     }
-    p {
-      text-align: center;
-      font-size: 16px;
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    label {
+      font-size: 14px;
       color: #555;
     }
-    a.button {
-      display: block;
-      text-align: center;
-      margin-top: 20px;
+    input, textarea, button {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      width: 100%;
+    }
+    button {
       background: #007acc;
       color: white;
-      padding: 12px;
-      border-radius: 6px;
-      text-decoration: none;
       font-weight: bold;
+      cursor: pointer;
     }
-    a.button:hover {
+    button:hover {
       background: #005fa3;
     }
   </style>
 </head>
 <body>
   <h1>Account Deletion Request</h1>
-  <p>If you would like to delete your account, please click the button below to contact us via email.</p>
-  
-  <a class="button" href="https://mail.google.com/mail/?view=cm&fs=1&to=ah7638545@gmail.com&su=Account%20Deletion%20Request" target="_blank">
-  Request Account Deletion
-</a>
+  <p>Please fill out the form below to request account deletion.</p>
+
+  <!-- Replace YOUR_FORM_ID with your real Formspree ID -->
+  <form action="https://formspree.io/f/xwpnebpp" method="POST">
+    <label>
+      Your Email:
+      <input type="email" name="email" required>
+    </label>
+    <label>
+      Message:
+      <textarea name="message" placeholder="Write your request..." required></textarea>
+    </label>
+    <button type="submit">Submit Request</button>
+  </form>
 </body>
 </html>
