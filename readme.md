@@ -1,6 +1,6 @@
-# PolicyKhata
+# Rate Book
 
-PolicyKhata is an **Insurance Calculator App** that helps users quickly calculate premiums, maturity values, and rider details. Users can enter client and nominee details, generate PDF reports of their calculations, and share them instantly.
+Rate Book is an **Insurance Calculator App** that helps users quickly calculate premiums, maturity values, and rider details. Users can enter client and nominee details, generate PDF reports of their calculations, and share them instantly.
 
 ## Features
 - Calculate insurance premium, maturity, and riders
@@ -20,4 +20,4 @@ PolicyKhata is an **Insurance Calculator App** that helps users quickly calculat
 
 ---
 
-> **Disclaimer:** Calculations provided by PolicyKhata are for reference purposes only. Please verify with official insurance providers before making any financial decisions.
+> **Disclaimer:** Calculations provided by Rate Book are for reference purposes only. Please verify with official insurance providers before making any financial decisions.
